@@ -1,9 +1,12 @@
 {
   "name": "weatherapp",
+  "homepage": "https://Githusigan2002.github.io/WeatherApp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
